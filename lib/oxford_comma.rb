@@ -1,10 +1,10 @@
 def oxford_comma(array)
 
 
-  
-  array.pop
+
+  last_element = array.pop
   phrase = array.join(", ")
-  final_phrase ="#{phrase}, and #{new_array[-1]}"
+  final_phrase ="#{phrase}, and #{last_element}"
   return final_phrase
 
 end
